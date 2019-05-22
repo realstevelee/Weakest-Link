@@ -1,0 +1,65 @@
+/* rule.html */
+h2.ruleTitle {
+    text-align: center;
+    color: white;
+}
+
+div.ruleContainer {
+    text-align: center;
+    width: 475px;
+}
+
+ol.ruleList {
+    color: white;
+    text-align: left;
+    display: inline-block;
+}
+
+/* game.html */
+/* Money Bank Part */
+div.moneyBankList {
+    position: absolute;
+    top: 290px;
+    left: 25px"
+}
+
+label.bankLabel {
+    color: white;
+    font-size: 20px;
+}
+
+#bankMoney {
+    color: white;
+    font-size: 14px;
+}
+
+/* Quiz Part */
+div.quizContainer {
+    position: absolute;
+    top: 35px;
+    left: 70px;
+    width: 260px;
+    height: 200px;
+    padding: 60px;
+}
+
+#quiz {
+    color: white;
+}
+
+/* timer */
+div.timer {
+    position: absolute;
+    top: 300px;
+    left: 460px;
+}
+
+label.timerLabel {
+    color: white;
+    font-size: 15px;
+}
+
+#timer {
+    color: white;
+    font-size: 18px;
+}

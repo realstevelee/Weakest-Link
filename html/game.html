@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Round One</title>
+	<style>
+		body {
+			background-image: url('../img/background.jpg');
+			background-size: 500px 350px;
+			background-repeat: no-repeat;
+		}
+		ul {
+			list-style-type: none;
+      transform: rotate(180deg);
+		}
+    ul > li {
+    transform: rotate(-180deg);
+}
+	</style>
+  <style id="changeColor"></style>
+	<link href="../style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<!--Money Bank-->
+	<div class="moneyBankList">
+		<label class="bankLabel">Bank</label><br>
+    <div id="bankMoney" align ="center">$0</div>
+  </div>
+  <div style="position:absolute;top:50px;left:15px" align ="center" id="moneyTreeContainer">
+    <b><ul id="moneyTree" style="color:white;font-size:14px;"></ul></b>
+  </div>
+
+
+<!-- Quiz-->
+  <div class="quizContainer">
+    <div id="quiz"></div>
+    <div align = "center">
+      <input type="button" value="a" id = "a"></input>
+      <input type="button" value="b" id = "b"></input>
+      <input type="button" value="c" id = "c"></input>
+      <input type="button" value="d" id = "d"></input>
+      <br><br>
+      <!-- Bank Button-->
+      <input type="button" value="Bank" id="bank"></input> 
+    </div>
+  </div>
+
+<!-- timer -->
+  <div class="timer" align="center";>
+    <label class="timerLabel">
+      Time
+      </label> 
+  <div id="timer">120</div>
+  </div>
+
+	<script src="../script.js">
+	</script>
+</body>
+
+</html>
