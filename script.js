@@ -315,7 +315,7 @@ let round = 0;
 let getMoney = 0;
 let bankedMoney = 0;
 let timer = setInterval(displayFirstTime, 1000);
-let time = 120;
+let time = 60;
 let i = 0;
 let num = Math.floor(Math.random() * numQuiz);
 
@@ -655,7 +655,7 @@ function secondRound() {
   clearInterval(timer);
   //Set round 2 timer.
   timer = setInterval(displaySecondTime, 1000);
-  time = 90;
+  time = 45;
   alert(`Round 2`);
   round = 2;
   //The list of prize
@@ -673,7 +673,7 @@ function thirdRound() {
   clearInterval(timer);
   //Set round 3 timer.
   timer = setInterval(displayThirdTime, 1000);
-  time = 60;
+  time = 30;
   alert(`3rd Round`);
   //set round is 3
   round = 3;
